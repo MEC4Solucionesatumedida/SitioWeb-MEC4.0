@@ -1,0 +1,65 @@
+nav {
+  display: flex;
+  width: 100%;
+  z-index: 1000;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(7, 5, 12, 0.2) 0%, rgba(46, 32, 80, 0.2) 100%), rgba(196, 156, 214, 0.2);
+  backdrop-filter: blur(7.5px);
+  position: fixed;
+  justify-content: end;
+}
+nav .nav-bar__bigger-screen {
+  margin-right: 70px;
+}
+nav .nav-bar__bigger-screen ul {
+  padding-top: 1rem;
+  margin-right: 70px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: end;
+  margin-right: 0px;
+}
+nav .nav-bar__bigger-screen ul a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+nav .nav-bar__bigger-screen ul a li {
+  list-style: none;
+}
+nav .nav-bar__bigger-screen ul a li ul {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+nav .nav-bar__bigger-screen ul a li ul li {
+  width: 100%;
+  list-style: none;
+  padding: var(--spacing-lg, 20px) var(--spacing-md, 15px);
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius-radius-sm, 10px);
+  border: 1px solid var(--color-border-border, #FDFDFD);
+  background: var(--background-menu, rgba(7, 5, 16, 0.9));
+}
+nav .nav-bar__bigger-screen ul a:hover {
+  background: linear-gradient(180deg, #63d7db 7.58%, #6C57BF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav .nav-bar__bigger-screen ul a:hover ul {
+  display: block;
+}
+nav .nav-bar__bigger-screen ul li {
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 400;
+}
+nav .nab-bar__smaller-screen {
+  display: none;
+}
+
+/*# sourceMappingURL=style-navbar.css.map */
