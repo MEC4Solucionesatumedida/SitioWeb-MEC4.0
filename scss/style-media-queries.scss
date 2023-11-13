@@ -1,0 +1,385 @@
+
+
+// Mobile //
+@media(max-width:480px){
+    nav{
+        display: none;
+        min-height: 50px;
+        .nav-bar__bigger-screen{
+            display: none;
+        }
+        .nab-bar__smaller-screen{
+            display: block;
+            .offcanvas-body{
+                background-color: black;
+                width: 100%;
+                height: 100vh;
+            }
+        }
+    }
+    main{
+        .contenedor{
+            width: 90%;
+        }
+        .seccion-inicio{
+            .contenedor-inicio{
+                spline-viewer{
+                    top: -10%;
+                }
+                .intro{
+                    bottom: 10%;
+                    p{
+                        width: 90%;
+                        font-size: 25px;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                    .botones-inicio{
+                        flex-direction: column;
+                        gap: 5px;
+                        width: 90%;
+                        top: 60%;
+                        .boton{
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .seccion-nosotros{
+            .contenedor{
+                margin-bottom: 0px;
+                padding: 8px;
+                .introduccion{
+                    padding: 0px;
+                    h1{
+                        font-size: 28px;
+                    }
+                    .descripcion{
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .seccion-servicios{
+            .contenedor{
+                padding-top: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                .encabezado{
+                    h1{
+                        font-size: 28px;
+                    }
+                }
+                .carrusel{
+                    .carrusel-industria{
+                        flex-direction: column;
+                    }
+                    .carrusel-inventario{
+                        flex-direction: column;
+                        width: 100%;
+                    }
+                    .carrusel-software{
+                        flex-direction: column;
+                        width: 100%;
+                    }
+                    .carta{
+                        display: flex;
+                        flex-direction: column;
+                        height: 200px;
+                        justify-content: center;
+                        align-items: center;
+                        .bloque-descripcion{
+                            width: 95%;
+                            margin-top: 55px;
+                            margin-bottom: 55px;
+                            height: 90px;
+                            p{
+                                font-family: Roboto Flex;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 36px; /* 112.5% */
+                                padding: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .seccion-principios{
+            .contenedor{
+                padding-bottom: 0px;
+                margin-top: 0px;
+                padding-top: 40px;
+                flex-direction: column;
+                .seccion-principios__left{
+                    width: 100%;
+                    h1{
+                        font-size: 30px;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                    p{
+                        font-size: 18px;
+                        margin: 0px;
+                    }
+                }
+                .seccion-principios__middle{
+                    width: 100%;
+                }
+                .seccion-principios__right{
+                    width: 100%;
+                    gap: 20px;
+                    .item{
+                        gap: 12px;
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                    .accordion{
+                        padding: 16px;
+                        h2{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20px; 
+                        }
+                    }
+                }
+            }
+        }
+        .seccion-clientes{
+            .contenedor{
+                .introduccion{
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px; /* 114.286% */
+                    padding: 0px;
+                    margin-bottom: 40px;
+                    margin-top: 40px;
+                }
+                .encabezado{
+                    h1{
+                        font-size: 28px;
+                        text-align: center;
+                    }
+                }
+                .carrusel-comentarios{
+                    .container-comentario{
+                        width: 100%;
+                        padding: 10px;
+                        .comentario{
+                            img{
+                                height:20px;
+                                width: 20px;
+                            }
+                            p{
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                padding: 0px 15px;
+                            }
+                        }
+                        .container-persona{
+                            margin-bottom: 0px;
+                            gap: 10px;
+                            .nombre-persona{
+                                font-size: 20px;
+                                padding: 0px;
+                            }
+                            .cargo-persona{
+                                font-size: 15px;
+                                margin-bottom: 0px;
+                                padding: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carrusel-empresas{
+            margin-top: 0px;
+            padding: 0px;
+            column-gap: 20px;
+            img{
+                width: 35%;
+            };
+        }
+        .seccion-contactanos{
+            margin-top: 40px;
+            padding-top: 0px;
+            .encabezado{
+                h1{
+                    font-size: 30px;
+                }
+            }
+            .tab{
+                li{
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+            .bloque-form{
+                flex-direction: column;
+                padding: 0px;
+                width: 90%;
+                .formularios{
+                    label{
+                        font-size: 16px;
+                    }
+                    input{
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                    .formulario-servicios{
+                        gap: 16px;
+                        .contenedor-bloque{
+                            .lblpermisos{
+                                font-size: 5px;
+                            }
+                        }
+                    }
+                }
+                .mapa{
+                    .informacion{
+                        gap: 16px;
+                        .contenedor-bloque{
+                            align-items: center;
+                            p{
+                                font-size: 12px;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        /* SUB PAGINAS */
+        .seccion-encabezado{
+            height: 228px;
+            .titulos{
+                width: 294px;
+                padding: 28px;
+                gap: 10px;
+                h1{
+                    font-size: 28px;
+                    margin-bottom: 0px;
+                }
+                h2{
+                    font-size: 24px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        .introduccion-servicios{
+            padding: 40px 0px;
+            
+            p{
+                font-size: 16px;
+            }
+        }
+        .subservicios{
+            .contenedor{
+                width: 100%;
+                .grilla{
+                    gap: 32px;
+                    justify-content: center;
+                    align-items: center;
+                    .contenedor-subservicio--izquierda{
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 0px;
+                        height: 260px;
+                        .imagen-subservicio{
+                            position: absolute;
+                            height: 252px;
+                            width: 343px;
+                            z-index: -1;
+                        }
+                        .descripcion-subservicio{
+                            width: 330px;
+                            margin: 16px;
+                            border-radius: var(--radius-radius-xs, 5px);
+                            background: linear-gradient(0deg, rgba(7, 5, 16, 0.50) 0%, rgba(7, 5, 16, 0.50) 100%), var(--background-glass, rgba(37, 30, 67, 0.30));
+                            box-shadow: 0px 5px 40px 0px rgba(7, 5, 16, 0.50);
+                            backdrop-filter: blur(9.5px);
+                            gap: 16px;
+                            padding: 12px;
+                            h1{
+                                font-size: 28px;
+                                text-align: left;
+                            }
+                            p{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    .contenedor-subservicio--derecha{
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 0px;
+                        height: 260px;
+                        .imagen-subservicio{
+                            position: absolute;
+                            height: 252px;
+                            width: 343px;
+                            z-index: -1;
+                        }
+                        .descripcion-subservicio{
+                            width: 330px;
+                            margin: 16px;
+                            border-radius: var(--radius-radius-xs, 5px);
+                            background: linear-gradient(0deg, rgba(7, 5, 16, 0.50) 0%, rgba(7, 5, 16, 0.50) 100%), var(--background-glass, rgba(37, 30, 67, 0.30));
+                            box-shadow: 0px 5px 40px 0px rgba(7, 5, 16, 0.50);
+                            backdrop-filter: blur(9.5px);
+                            gap: 16px;
+                            padding: 12px;
+                            h1{
+                                font-size: 28px;
+                                text-align: left;
+                            }
+                            p{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        padding: 16px;
+        .logo-derechos-reservados{
+            
+            .logo-footer{
+                width: 150px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}
