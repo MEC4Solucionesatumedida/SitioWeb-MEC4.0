@@ -1,0 +1,341 @@
+@media (max-width: 480px) {
+  nav {
+    display: none;
+    min-height: 50px;
+  }
+  nav .nav-bar__bigger-screen {
+    display: none;
+  }
+  nav .nab-bar__smaller-screen {
+    display: block;
+  }
+  nav .nab-bar__smaller-screen .offcanvas-body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+  }
+  main {
+    /* SUB PAGINAS */
+  }
+  main .contenedor {
+    width: 90%;
+  }
+  main .seccion-inicio .contenedor-inicio spline-viewer {
+    top: -10%;
+  }
+  main .seccion-inicio .contenedor-inicio .intro {
+    bottom: 10%;
+  }
+  main .seccion-inicio .contenedor-inicio .intro p {
+    width: 90%;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  main .seccion-inicio .contenedor-inicio .intro .botones-inicio {
+    flex-direction: column;
+    gap: 5px;
+    width: 90%;
+    top: 60%;
+  }
+  main .seccion-inicio .contenedor-inicio .intro .botones-inicio .boton {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+  }
+  main .seccion-nosotros .contenedor {
+    margin-bottom: 0px;
+    padding: 8px;
+  }
+  main .seccion-nosotros .contenedor .introduccion {
+    padding: 0px;
+  }
+  main .seccion-nosotros .contenedor .introduccion h1 {
+    font-size: 28px;
+  }
+  main .seccion-nosotros .contenedor .introduccion .descripcion p {
+    font-size: 18px;
+  }
+  main .seccion-servicios .contenedor {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  main .seccion-servicios .contenedor .encabezado h1 {
+    font-size: 28px;
+  }
+  main .seccion-servicios .contenedor .carrusel .carrusel-industria {
+    flex-direction: column;
+  }
+  main .seccion-servicios .contenedor .carrusel .carrusel-inventario {
+    flex-direction: column;
+    width: 100%;
+  }
+  main .seccion-servicios .contenedor .carrusel .carrusel-software {
+    flex-direction: column;
+    width: 100%;
+  }
+  main .seccion-servicios .contenedor .carrusel .carta {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  main .seccion-servicios .contenedor .carrusel .carta .bloque-descripcion {
+    width: 95%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    height: 90px;
+  }
+  main .seccion-servicios .contenedor .carrusel .carta .bloque-descripcion p {
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 112.5% */
+    padding: 3px;
+  }
+  main .seccion-principios .contenedor {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  main .seccion-principios .contenedor .seccion-principios__left {
+    width: 100%;
+  }
+  main .seccion-principios .contenedor .seccion-principios__left h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+  }
+  main .seccion-principios .contenedor .seccion-principios__left p {
+    font-size: 18px;
+    margin: 0px;
+  }
+  main .seccion-principios .contenedor .seccion-principios__middle {
+    width: 100%;
+  }
+  main .seccion-principios .contenedor .seccion-principios__right {
+    width: 100%;
+    gap: 20px;
+  }
+  main .seccion-principios .contenedor .seccion-principios__right .item {
+    gap: 12px;
+  }
+  main .seccion-principios .contenedor .seccion-principios__right .item p {
+    font-size: 18px;
+  }
+  main .seccion-principios .contenedor .seccion-principios__right .accordion {
+    padding: 16px;
+  }
+  main .seccion-principios .contenedor .seccion-principios__right .accordion h2 {
+    font-size: 20px;
+  }
+  main .seccion-principios .contenedor .seccion-principios__right .accordion p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  main .seccion-clientes .contenedor .introduccion {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 114.286% */
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  main .seccion-clientes .contenedor .encabezado h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  main .seccion-clientes .contenedor .carrusel-comentarios .container-comentario {
+    width: 100%;
+    padding: 10px;
+  }
+  main .seccion-clientes .contenedor .carrusel-comentarios .container-comentario .comentario img {
+    height: 20px;
+    width: 20px;
+  }
+  main .seccion-clientes .contenedor .carrusel-comentarios .container-comentario .comentario p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 15px;
+  }
+  main .seccion-clientes .contenedor .carrusel-comentarios .container-comentario .container-persona {
+    margin-bottom: 0px;
+    gap: 10px;
+  }
+  main .seccion-clientes .contenedor .carrusel-comentarios .container-comentario .container-persona .nombre-persona {
+    font-size: 20px;
+    padding: 0px;
+  }
+  main .seccion-clientes .contenedor .carrusel-comentarios .container-comentario .container-persona .cargo-persona {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  main .carrusel-empresas {
+    margin-top: 0px;
+    padding: 0px;
+    column-gap: 20px;
+  }
+  main .carrusel-empresas img {
+    width: 35%;
+  }
+  main .seccion-contactanos {
+    margin-top: 40px;
+    padding-top: 0px;
+  }
+  main .seccion-contactanos .encabezado h1 {
+    font-size: 30px;
+  }
+  main .seccion-contactanos .tab li {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  main .seccion-contactanos .bloque-form {
+    flex-direction: column;
+    padding: 0px;
+    width: 90%;
+  }
+  main .seccion-contactanos .bloque-form .formularios label {
+    font-size: 16px;
+  }
+  main .seccion-contactanos .bloque-form .formularios input {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  main .seccion-contactanos .bloque-form .formularios .formulario-servicios {
+    gap: 16px;
+  }
+  main .seccion-contactanos .bloque-form .formularios .formulario-servicios .contenedor-bloque .lblpermisos {
+    font-size: 5px;
+  }
+  main .seccion-contactanos .bloque-form .mapa .informacion {
+    gap: 16px;
+  }
+  main .seccion-contactanos .bloque-form .mapa .informacion .contenedor-bloque {
+    align-items: center;
+  }
+  main .seccion-contactanos .bloque-form .mapa .informacion .contenedor-bloque p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  main .seccion-encabezado {
+    height: 228px;
+  }
+  main .seccion-encabezado .titulos {
+    width: 294px;
+    padding: 28px;
+    gap: 10px;
+  }
+  main .seccion-encabezado .titulos h1 {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  main .seccion-encabezado .titulos h2 {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  main .introduccion-servicios {
+    padding: 40px 0px;
+  }
+  main .introduccion-servicios p {
+    font-size: 16px;
+  }
+  main .subservicios .contenedor {
+    width: 100%;
+  }
+  main .subservicios .contenedor .grilla {
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--izquierda {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    height: 260px;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--izquierda .imagen-subservicio {
+    position: absolute;
+    height: 252px;
+    width: 343px;
+    z-index: -1;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--izquierda .descripcion-subservicio {
+    width: 330px;
+    margin: 16px;
+    border-radius: var(--radius-radius-xs, 5px);
+    background: linear-gradient(0deg, rgba(7, 5, 16, 0.5) 0%, rgba(7, 5, 16, 0.5) 100%), var(--background-glass, rgba(37, 30, 67, 0.3));
+    box-shadow: 0px 5px 40px 0px rgba(7, 5, 16, 0.5);
+    backdrop-filter: blur(9.5px);
+    gap: 16px;
+    padding: 12px;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--izquierda .descripcion-subservicio h1 {
+    font-size: 28px;
+    text-align: left;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--izquierda .descripcion-subservicio p {
+    font-size: 16px;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--derecha {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    height: 260px;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--derecha .imagen-subservicio {
+    position: absolute;
+    height: 252px;
+    width: 343px;
+    z-index: -1;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--derecha .descripcion-subservicio {
+    width: 330px;
+    margin: 16px;
+    border-radius: var(--radius-radius-xs, 5px);
+    background: linear-gradient(0deg, rgba(7, 5, 16, 0.5) 0%, rgba(7, 5, 16, 0.5) 100%), var(--background-glass, rgba(37, 30, 67, 0.3));
+    box-shadow: 0px 5px 40px 0px rgba(7, 5, 16, 0.5);
+    backdrop-filter: blur(9.5px);
+    gap: 16px;
+    padding: 12px;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--derecha .descripcion-subservicio h1 {
+    font-size: 28px;
+    text-align: left;
+  }
+  main .subservicios .contenedor .grilla .contenedor-subservicio--derecha .descripcion-subservicio p {
+    font-size: 16px;
+  }
+  footer {
+    padding: 16px;
+  }
+  footer .logo-derechos-reservados .logo-footer {
+    width: 150px;
+  }
+  footer .logo-derechos-reservados p {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=style-media-queries.css.map */

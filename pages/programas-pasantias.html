@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEC4.0 - Soluciones a tu medida</title>
+    <link rel="shortcut icon" href="./assets/img/logo-minimizado.png" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <!--<div class="nav-bar">
+            <ul>
+                <a href="../index.html#inicio"><li>Inicio</li></a>
+                <a href="../index.html#servicios"><li>Servicios</li></a>
+                <a href="../index.html#nosotros"><li>Nosotros</li></a>
+                <a href="../index.html#experiencia"><li>Clientes</li></a>
+                <a href="../index.html#contactanos"><li>Contáctanos</li></a>
+            </ul>
+        </div> -->
+    </nav>
+    <main>
+        <section class="seccion-encabezado">
+            <img src="../assets/img/servicios/Industria/Diseño-y-fabricación/Encabezado.jpg" alt="">
+            <div class="contenedor">
+                <div class="titulos">
+                    <h1>Industria</h1>
+                    <h2>Diseño y fabricación</h2>
+                </div>
+            </div>
+        </section>
+        <section class="introduccion-servicios">
+            <div class="contenedor">
+                <p>Te ofrecemos un servicio integral de diseño y fabricación de estructuras metálicas. Nuestro equipo de ingenieros trabaja en estrecha colaboración con usted para diseñar estructuras a medida que cumplen con sus especificaciones exactas. Luego fabricamos con precisión y durabilidad con materiales de calidad. Confía en nosotros para proporcionar soluciones metálicas confiables y eficientes que superen sus expectativas y satisfagan sus necesidades de construcción y proyectos industriales.</p>
+            </div>
+        </section>
+        <section class="subservicios">
+            <div class="contenedor">
+                <div class="grilla">
+                    <div class="contenedor-subservicio--izquierda">
+                        <div class="imagen-subservicio">
+                            <img src="../assets/img/servicios/Industria/Diseño-y-fabricación/Industrias metalicas.jpg" alt="">
+                        </div>
+                        <div class="descripcion-subservicio">
+                            <h1>Estructuras metálicas</h1>
+                            <p>Estructuras y techos para el hogar, tinglados y cubiertas para la industria, pasillos y plataformas a medida, grúas y vigas de carga, escaleras metálicas, torres de comunicación, estructuras para parques solares, edificios industriales.</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-subservicio--derecha">
+                        <div class="imagen-subservicio">
+                            <img src="../assets/img/servicios/Industria/Diseño-y-fabricación/Montaje y reparación de líneas de vapor.jpg" alt="">
+                        </div>
+                        <div class="descripcion-subservicio">
+                            <h1>Montaje y reparación de líneas de vapor</h1>
+                            <p>Reparación de fugas, reemplazo de líneas dañadas, instalación de aislamiento térmico, modernización de circuitos de vapor.</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-subservicio--izquierda">
+                        <div class="imagen-subservicio">
+                            <img src="../assets/img/servicios/Industria/Diseño-y-fabricación/Trabajos y fabricación en Inox.jpg" alt="">
+                        </div>
+                        <div class="descripcion-subservicio">
+                            <h1>Trabajos y fabricación en Inox</h1>
+                            <p>Estructuras de soporte para ambientes esterilizados o con condiciones de inocuidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <section id="contactanos" class="seccion-contactanos">
+            <div class="encabezado">
+                <h1>Conéctate con nosotros</h1>    <!-- Aumentar barra-->
+            </div>
+            <div class="tab">
+                <ul>
+                    <li id="tab-servicios">Servicios de MEC4.0</li>
+                    <li>Únete a nuestro equipo</li>
+                    <li id="tab-programas">Aplica a nuestros programas</li> <!-- Ocultar -->
+                </ul>
+            </div>
+            <div class="bloque-form">
+                <div class="formularios">
+                    <form class="formulario-servicios" action="/submit_form" method="post">
+                        <div class="contenedor-bloque">
+                            <label for="fname">Nombre completo:</label>
+                            <input type="text" id="fname" name="fname" placeholder="Nombre completo">
+                        </div>
+                        <div class="contenedor-bloque">
+                            <label for="lname">Puesto de trabajo / cargo:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Puesto de trabajo / cargo">
+                        </div>
+                        <div class="contenedor-bloque">
+                            <label for="lname">Nombre de la empresa:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Nombre de la empresa">
+                        </div>
+                        <div class="contenedor-bloque">
+                            <label for="lname">Email:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Email">
+                        </div>
+                        <div class="contenedor-bloque">
+                            <label for="lname">Teléfono:</label>
+                            <div class="contenedor-bloque-2">
+                                <!--
+                                <select id="codigo" name="codigo">
+                                    <option value="bolivia">+591</option>
+                                    <option value="argentina">+54</option>
+                                    <option value="chile">+56</option>
+                                </select>
+                                -->
+                                <input type="text" id="lname" name="lname" placeholder="Teléfono de la empresa">
+                            </div>
+                        </div>
+                        <!-- 
+                        <div class="contenedor-bloque">
+                            <label for="lname">Servicios:</label>
+                            <select id="servicios" name="servicios">
+                                <option value="bolivia">Diseño y fabricación</option>
+                                <option value="argentina">Ingeniería Integral</option>
+                                <option value="chile">Mantenimiento Industrial</option>
+                                <option value="chile">Suministro Directo</option>
+                                <option value="chile">Diseño de almacenes y asesoría en inventarios</option>
+                                <option value="chile">Revalúo de activos</option>
+                                <option value="chile">Aplicaciones de Gestión Integral</option>
+                                <option value="chile">Oficinas Virtuales</option>
+                                <option value="chile">Sitios Web</option>
+                            </select>
+                        </div>
+                        -->
+                        <div class="contenedor-bloque">
+                            <label for="lname">Cómo podemos ayudarte:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Cómo podemos ayudarte">
+                        </div>
+                        <div class="contenedor-bloque" id="checkbox-permisos">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="">Permito a MEC 4.0 almacenar, procesar y usar la información personal 
+                                registrada en el formulario para recibir noticias y actualizaciones de la empresa 
+                                y estoy de acuerdo con la política de privacidad</label>
+                        </div>
+                        <div class="boton">
+                            Enviar
+                        </div>
+                    </form>
+                    <!-- Aumentar formularios -->
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d591.0851310116673!2d-66.1649419303695!3d-17.375887648392748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbo!4v1698679310036!5m2!1ses-419!2sbo" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="informacion">
+                        <div class="contenedor-bloque">
+                            <img src="../assets/iconos/location.png" alt="">
+                            <p>Nuestra oficina se encuentra en Cochabamba: Av. Teofilo Vargas #361, Edificio Ayala. Piso 5 oficina A</p>
+                        </div>
+                        <div class="contenedor-bloque">
+                            <img src="../assets/iconos/user.png" alt="">
+                            <p>Departamento Comercial</p>
+                        </div>
+                        <div class="contenedor-bloque">
+                            <img src="../assets/iconos/phone.png" alt="">
+                            <p>Número celular: +591-73795560</p>
+                        </div>
+                        <div class="contenedor-bloque">
+                            <img src="../assets/iconos/mail.png" alt="">
+                            <p>Email de la empresa: gerencia@mec4.com.bo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+            
+    </main>
+    <footer>
+        <div class="logo-derechos-reservados">
+            <img class="logo-footer" src="../assets/img/logo-mec4.png" alt="">
+            <p>© 2023 MEC 4.0. All rights reserved</p>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/mec4ingenieria" target="_blank"><img src="../assets/iconos/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/mec_4.0/" target="_blank"><img src="../assets/iconos/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/mec4-0/" target="_blank"><img src="../assets/iconos/LinkedIn.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>

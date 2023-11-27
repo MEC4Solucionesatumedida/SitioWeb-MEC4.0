@@ -1,0 +1,710 @@
+@charset "UTF-8";
+/* PROYECTO */
+* {
+  margin: 0;
+  padding: 0;
+  color: #fdfdfd;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #070510;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Roboto Flex";
+  font-size: 48px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Roboto Flex";
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 90%;
+  justify-content: center;
+}
+
+.seccion-inicio {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.seccion-inicio .imagen-fondo {
+  position: absolute;
+  align-self: self-end;
+  z-index: -2;
+}
+.seccion-inicio .contenedor-inicio {
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-inicio .contenedor-inicio .logo-mec {
+  width: 1190px;
+}
+.seccion-inicio .contenedor-inicio spline-viewer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.seccion-inicio .contenedor-inicio .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+}
+.seccion-inicio .contenedor-inicio .intro p {
+  font-family: "Roboto Flex";
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  color: var(--color-grey-500, #FDFDFD);
+  width: 40%;
+  /* normal/text/XL */
+  font-family: Roboto Flex;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 116.667% */
+}
+.seccion-inicio .contenedor-inicio .intro .iconos-3d {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.seccion-inicio .contenedor-inicio .intro .iconos-3d img {
+  height: 200px;
+  padding: 0px 0px;
+}
+.seccion-inicio .contenedor-inicio .intro .botones-inicio {
+  top: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 20px;
+}
+.seccion-inicio .contenedor-inicio .intro .botones-inicio .boton {
+  border-radius: var(--radius-radius-lg, 40px);
+  border: 2px solid var(--primary-mixed, #03989E);
+  background: #252525;
+  padding: 15px;
+  width: 200px;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+}
+.seccion-inicio .contenedor-inicio .intro .botones-inicio .boton:hover {
+  background: linear-gradient(82deg, #03989E 5.92%, #9747FF 94.29%);
+  border: 1px solid var(--color-border-border, #FDFDFD);
+}
+
+.seccion-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.seccion-nosotros .contenedor {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: var(--radius-radius-xl, 25px);
+  background: rgba(37, 30, 67, 0.3);
+}
+.seccion-nosotros .contenedor .introduccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  padding: 30px 70px;
+}
+.seccion-nosotros .contenedor .introduccion h1 {
+  font-family: "Roboto Flex";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.seccion-nosotros .contenedor .introduccion .descripcion {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.seccion-nosotros .contenedor .introduccion .descripcion p {
+  width: 100%;
+  text-align: left;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.seccion-servicios {
+  padding-top: 50px;
+}
+.seccion-servicios .contenedor {
+  margin: 0px 70px;
+  padding-top: 20px;
+}
+.seccion-servicios .contenedor .encabezado {
+  text-align: center;
+  width: 100%;
+}
+.seccion-servicios .contenedor .tab {
+  width: 100%;
+}
+.seccion-servicios .contenedor .tab ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.seccion-servicios .contenedor .tab ul li {
+  padding: 0px 32px;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+}
+.seccion-servicios .contenedor .carrusel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.seccion-servicios .contenedor .carrusel .carrusel-industria {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seccion-servicios .contenedor .carrusel .carrusel-inventario {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seccion-servicios .contenedor .carrusel .carrusel-software {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seccion-servicios .contenedor .carrusel a {
+  width: 100%;
+}
+.seccion-servicios .contenedor .carrusel a .carta {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 580px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.seccion-servicios .contenedor .carrusel a .carta .bloque-descripcion {
+  margin-left: 17px;
+  margin-right: 17px;
+  height: 89px;
+  border-radius: var(--radius-radius-sm, 10px);
+  border: 0.2px solid var(--color-purple-501, #D4C8EE);
+  background: linear-gradient(0deg, rgba(46, 32, 80, 0.2) 0%, rgba(46, 32, 80, 0.2) 100%), rgba(196, 156, 214, 0.2);
+  backdrop-filter: blur(7.5px);
+  margin-bottom: 32px;
+  padding: 5px;
+}
+.seccion-servicios .contenedor .carrusel a .carta .bloque-descripcion p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.seccion-servicios .contenedor .carrusel #diseno-fabricacion {
+  background-image: url(../assets/img/servicios/Industria/Diseño-y-fabricación/Encabezado.jpg);
+}
+.seccion-servicios .contenedor .carrusel #ingenieria-integral {
+  background-image: url(../assets/img/servicios/Industria/Ingeniería-Integral/Encabezado.jpg);
+}
+.seccion-servicios .contenedor .carrusel #mantenimiento-industrial {
+  background-image: url(../assets/img/servicios/Industria/Mantenimiento-Industrial/Encabezado.jpg);
+}
+.seccion-servicios .contenedor .carrusel #suministro-directo {
+  background-image: url(../assets/img/servicios/Industria/Suministro-Directo/Encabezado.jpg);
+}
+.seccion-servicios .contenedor .carrusel #diseno-almacenes-asesoria-inventarios {
+  background-image: url(../assets/img/servicios/Inventario/Diseño-de-Almacenes-y-Asesoría-en-Inventarios/Encabezado.jpg);
+}
+.seccion-servicios .contenedor .carrusel #revaluo-activos {
+  background-image: url(../assets/img/servicios/Inventario/Revalúo-de-activos/Encabezado.jpg);
+}
+.seccion-servicios .contenedor .carrusel #aplicaciones-gestion-integral {
+  background-image: url(../assets/img/servicios/Software/Aplicaciones-de-gestión-integral-con-inteligencia-artificial/Encabezado.jpg);
+}
+.seccion-servicios .contenedor .carrusel #oficinas-virtuales {
+  background-image: url(../assets/img/servicios/Software/Oficinas-Virtuales/Encabezado.jpg);
+  background-position: 90%;
+}
+.seccion-servicios .contenedor .carrusel #sitios-web {
+  background-image: url(../assets/img/servicios/Software/Sitios-Web/Encabezado.jpg);
+}
+
+.seccion-principios .contenedor {
+  display: flex;
+  flex-direction: row;
+  margin-top: 85px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  gap: 20px;
+  align-items: center;
+}
+.seccion-principios .contenedor .seccion-principios__left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 33%;
+}
+.seccion-principios .contenedor .seccion-principios__left h1 {
+  margin-bottom: 23.43px;
+}
+.seccion-principios .contenedor .seccion-principios__left p {
+  margin-bottom: 32px;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+}
+.seccion-principios .contenedor .seccion-principios__left .boton {
+  background-color: #03989e;
+  padding: 15px;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  border-radius: var(--radius-radius-rounded, 50px);
+  background: var(--color-brand-1-color, #03989E);
+}
+.seccion-principios .contenedor .seccion-principios__left .boton:hover {
+  background: linear-gradient(82deg, #03989E 5.92%, #9747FF 94.29%);
+  border: 1px solid var(--color-border-border, #FDFDFD);
+}
+.seccion-principios .contenedor .seccion-principios__middle {
+  background-image: url(../assets/img/por-qué-mec.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 33%;
+  height: 344px;
+}
+.seccion-principios .contenedor .seccion-principios__right {
+  display: flex;
+  flex-direction: column;
+  gap: 10.91px;
+  width: 33%;
+}
+.seccion-principios .contenedor .seccion-principios__right .item {
+  display: flex;
+  height: 72px;
+  padding: var(--spacing-lg, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--radius-radius-sm, 10px);
+  border: 1px solid var(--color-border-border, #FDFDFD);
+}
+.seccion-principios .contenedor .seccion-principios__right .item h2 {
+  font-family: Roboto Flex;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 114.286% */
+}
+.seccion-principios .contenedor .seccion-principios__right #item-1 {
+  display: none;
+}
+.seccion-principios .contenedor .seccion-principios__right .accordion {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: var(--radius-radius-lg, 20px);
+  border: 0.5px solid var(--color-purple-501, #D4C8EE);
+  background: var(--primary-mixed, linear-gradient(82deg, #03989E 5.92%, #9747FF 94.29%));
+  display: none;
+}
+.seccion-principios .contenedor .seccion-principios__right .accordion h2 {
+  text-align: center;
+  font-family: Roboto Flex;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+}
+.seccion-principios .contenedor .seccion-principios__right .accordion p {
+  color: var(--color-text-color-text-primary, #FDFDFD);
+  /* normal/text/M */
+  font-family: Roboto Flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 114.286% */
+  margin-bottom: 0px;
+  align-self: center;
+  justify-content: centerw;
+}
+.seccion-principios .contenedor .seccion-principios__right #accordion-1 {
+  display: block;
+}
+
+.seccion-clientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-clientes .contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-clientes .contenedor .introduccion {
+  text-align: center;
+  text-shadow: 0px 10px 20px rgba(151, 71, 255, 0.6);
+  /* bold/textXXL */
+  font-family: Roboto Flex;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 100% */
+  background: linear-gradient(180deg, #9747FF 20.54%, #03989E 89.29%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 102px 145px;
+}
+.seccion-clientes .contenedor .encabezado {
+  /* bold/text/XL */
+  font-family: Roboto Flex;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 116.667% */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-clientes .contenedor .carrusel-comentarios {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-glass, rgba(37, 30, 67, 0.3));
+  padding: 30px 20px;
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario .comentario {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario .comentario img {
+  height: 44px;
+  width: 52px;
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario p {
+  padding: 0px 75px;
+  font-family: Roboto Flex;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario .container-persona {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 12px;
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario .container-persona .nombre-persona {
+  color: var(--color-text-color-text-primary, #FDFDFD);
+  /* bold/text/S */
+  font-family: Roboto Flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  text-align: right;
+  margin-bottom: 0px;
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario .container-persona .cargo-persona {
+  color: var(--color-text-color-text-primary, #FDFDFD);
+  /* normal/text/S */
+  font-family: Roboto Flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  text-align: right;
+}
+.seccion-clientes .contenedor .carrusel-comentarios .container-comentario img {
+  width: 52px;
+}
+
+.carrusel-empresas {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 70px;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 150px;
+  row-gap: 0px;
+  background: var(--background-glass, rgba(37, 30, 67, 0.3));
+  justify-content: center;
+}
+.carrusel-empresas img {
+  width: 300px;
+}
+
+.seccion-contactanos {
+  display: flex;
+  flex-direction: column;
+  padding-top: 106px;
+  justify-content: center;
+  padding-bottom: 102px;
+}
+.seccion-contactanos .encabezado {
+  text-align: center;
+}
+.seccion-contactanos .tab ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+.seccion-contactanos .tab ul li {
+  padding: 0px 32px;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+}
+.seccion-contactanos #tab-servicios {
+  background: linear-gradient(180deg, #03989E 7.58%, #6C57BF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.seccion-contactanos #tab-programas {
+  display: none;
+}
+.seccion-contactanos .bloque-form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0px 70px;
+}
+.seccion-contactanos .bloque-form .formularios label {
+  color: var(--color-text-color-text-primary, #FDFDFD);
+  width: 100%;
+  /* normal/text/S */
+  font-family: Roboto Flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+.seccion-contactanos .bloque-form .formularios input {
+  display: flex;
+  padding: var(--spacing-padding-padding-lg, 20px) var(--spacing-padding-padding-sm, 10px);
+  align-items: center;
+  align-self: stretch;
+  border-radius: var(--radius-radius-sm, 10px);
+  border: 1px solid var(--color-grey-500, #FDFDFD);
+  background-color: black;
+  width: 100%;
+}
+.seccion-contactanos .bloque-form .formularios input select {
+  display: flex;
+  padding: var(--spacing-padding-padding-lg, 20px) var(--spacing-padding-padding-md, 15px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--radius-radius-sm, 10px);
+  border: 1px solid var(--color-grey-500, #FDFDFD);
+  background-color: black;
+  width: 100%;
+}
+.seccion-contactanos .bloque-form .formularios .formulario-servicios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.seccion-contactanos .bloque-form .formularios .formulario-servicios .contenedor-bloque {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.seccion-contactanos .bloque-form .formularios .formulario-servicios .contenedor-bloque-2 {
+  display: flex;
+  flex-direction: row;
+}
+.seccion-contactanos .bloque-form .formularios .formulario-servicios #checkbox-permisos {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.seccion-contactanos .bloque-form .formularios .formulario-servicios #checkbox-permisos input {
+  width: 16px;
+  height: 16px;
+  border-radius: 1px;
+  background: var(--color-grey-500, #FDFDFD);
+}
+.seccion-contactanos .bloque-form .formularios .formulario-servicios #checkbox-permisos label {
+  font-family: Roboto Flex;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 88.889% */
+}
+.seccion-contactanos .bloque-form .formularios .boton {
+  background-color: #03989e;
+  padding: 15px;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  border-radius: var(--radius-radius-rounded, 50px);
+  background: var(--color-brand-1-color, #03989E);
+}
+.seccion-contactanos .bloque-form .formularios .boton:hover {
+  background: linear-gradient(82deg, #03989E 5.92%, #9747FF 94.29%);
+  border: 1px solid var(--color-border-border, #FDFDFD);
+}
+.seccion-contactanos .bloque-form .mapa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.seccion-contactanos .bloque-form .mapa .informacion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.seccion-contactanos .bloque-form .mapa .informacion .contenedor-bloque {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.seccion-contactanos .bloque-form .mapa .informacion .contenedor-bloque img {
+  width: 32px;
+  height: 32px;
+}
+.seccion-contactanos .bloque-form .mapa .informacion .contenedor-bloque p {
+  color: #FFF;
+  /* normal/text/S */
+  font-family: Roboto Flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+
+footer {
+  background-color: var(--background-glass, rgba(37, 30, 67, 0.3));
+  padding: 16px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .logo-derechos-reservados {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .logo-derechos-reservados .logo-footer {
+  width: 373.475px;
+}
+footer .logo-derechos-reservados p {
+  color: #FFF;
+  font-family: Roboto Flex;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+footer .redes-sociales {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+footer .redes-sociales img {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid var(--color-grey-500, #FDFDFD);
+}
+footer .redes-sociales img:hover {
+  border-radius: var(--radius-radius-rounded, 50px);
+  border: 1px solid var(--Primary-mix, #36D5E0);
+}
+
+/*# sourceMappingURL=style-index.css.map */

@@ -1,0 +1,65 @@
+nav{
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(7, 5, 12, 0.2) 0%, rgba(46, 32, 80, 0.20) 100%), rgba(196, 156, 214, 0.20);
+    backdrop-filter: blur(7.5px);
+    position: fixed;
+    justify-content: end;
+    .nav-bar__bigger-screen{
+        margin-right: 70px;
+        
+        ul{
+            a{
+                display: flex;
+                flex-direction: column;
+                text-decoration: none;
+                li{
+                    list-style: none;
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        li{
+                            width: 100%;
+                            list-style: none;
+                            padding: var(--spacing-lg, 20px) var(--spacing-md, 15px);
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: var(--radius-radius-sm, 10px);
+                            border: 1px solid var(--color-border-border, #FDFDFD);
+                            background: var(--background-menu, rgba(7, 5, 16, 0.90));
+                        }
+                        display: none;
+                    }
+                }
+                
+                &:hover{
+                    background: linear-gradient(180deg, #63d7db 7.58%, #6C57BF 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    ul{
+                        display: block;
+                    }
+                }
+            }
+            padding-top: 1rem;
+            margin-right: 70px;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: end;
+            margin-right: 0px;
+            li{
+                font-family: 'Roboto Flex';
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+    }
+    .nab-bar__smaller-screen{
+        display: none;
+    }
+}
